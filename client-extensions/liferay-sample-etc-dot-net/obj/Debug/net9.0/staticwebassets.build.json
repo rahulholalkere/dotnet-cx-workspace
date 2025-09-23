@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "tWbWnxc55kIRwvS7zAWp/xk5vvaDYZrMcwvnJzSJoMw=",
+  "Source": "Liferay.Sample.Etc.DotNet",
+  "BasePath": "_content/Liferay.Sample.Etc.DotNet",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

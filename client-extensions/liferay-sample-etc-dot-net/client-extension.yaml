@@ -1,0 +1,15 @@
+assemble:
+    - include:
+          - "*.csproj"
+liferay-sample-etc-dot-net-oauth-application-user-agent:
+    .serviceAddress: localhost:5084
+    .serviceScheme: http
+    name: Liferay Sample Etc DotNet OAuth Application User Agent
+    scopes:
+        - Liferay.Headless.Admin.Workflow.everything
+    type: oAuthApplicationUserAgent
+liferay-sample-etc-dot-net-object-action-1:
+    name: Liferay Sample Etc DotNet Object Action 1
+    oAuth2ApplicationExternalReferenceCode: liferay-sample-etc-dot-net-oauth-application-user-agent
+    resourcePath: /object/action/1
+    type: objectAction
